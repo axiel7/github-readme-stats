@@ -2,7 +2,7 @@ name: Cache Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 */24 * * * # Change it accordingly
+    - cron: 0 */168 * * * # Change it accordingly
 
 jobs:
   stats:
